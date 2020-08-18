@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+kafka:
+
+  bootstrap_address: "localhost:9093"
+  consumer:
+    group_id: g1
+    topic: logging
+
+#spring:
+#  kafka:
+#    consumer:
+#      properties:
+#        spring.json.trusted.packages: "com.example.consumer01.models"
